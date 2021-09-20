@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body class="x">
+    <h1>Registration Form</h1>
+    <div>
+        <form action="backend.php">
+            
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="myname" id="name">
+            </div><br>
+            <div>Username: <input type="text" name="myun"></div><br>
+            <div>Password: <input type="password"></div><br>
+            <div>Email: <input type="email" name="myemail"></div><br>
+            <div>Age: <input type="number" name="num"></div><br>
+            <div>Gender: <input type="radio" name="gen" > Male<input type="radio" name="gen"> Female</div><br>
+            <div>Date: <input type="Date" name="date"></div><br>
+            <div>Opinion: <br><textarea name="txt" cols="50" rows="10"></textarea></div><br>
+            <div>
+                <label for="l">Preferred language:</label>
+                <select name="lang" id="l">
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="java">Java</option>
+                    <option value="py" selected>Python</option>
+                    <option value="html">HTML</option>
+                </select>
+            </div><br>
+
+            <div>I Accept all the terms and conditions: <input type="checkbox" name="accept" checked></div><br>
+            <div><input type="reset" value="reset"> <input type="submit" value="Submit Now"> </div><br>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
